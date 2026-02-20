@@ -1,0 +1,9 @@
+[server]
+headless = true
+port = 8501
+
+[runner]
+magicEnabled = true
+
+[client]
+showErrorDetails = true
