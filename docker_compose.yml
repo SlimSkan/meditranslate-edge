@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+    meditranslate:
+        build: .
+        ports:
+         - "8501:8501"
+        environment:
+        - HF_TOKEN=${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}
+        volumes:
+         - model_cache:/root/.cache
+        restart: unless-stopped
+    
+volumes:
+  model_cache:
+
