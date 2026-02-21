@@ -6,7 +6,7 @@ services:
         ports:
          - "8501:8501"
         environment:
-        - HF_TOKEN=${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}
+        - HF_TOKEN=${HF_TOKEN}
         volumes:
          - model_cache:/root/.cache
         restart: unless-stopped
