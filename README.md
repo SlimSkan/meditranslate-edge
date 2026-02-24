@@ -1,6 +1,8 @@
 # 🏥 MediTranslate Edge
 
 **Translate complex medical text into patient-friendly language**
+**🌐 [Try the Live Demo](https://huggingface.co/spaces/SlimSKan/meditranslate-edge)**
+**📊 [View Code on Kaggle](https://www.kaggle.com/code/slimkhaled/medgemmainterface)**
 
 Built for the **MedGemma Impact Challenge 2026** - Edge AI Prize
 
